@@ -12,8 +12,6 @@ Here are related papers on the fitting and generalization of deep learning:
   * Novelty: moving from loss design to derivative design
 
 
-For any specific discussion or potential future collaboration, please feel free to contact me. <br />
-
 <details><summary>See Citation Details</summary>
 
 #### Please kindly cite the following papers if you find this repo useful.
@@ -128,3 +126,7 @@ The results are well sinked and organised, e.g.,
 ## Supplementary material
 #### [Link to Slide, Poster](./Poster_Slide)
 #### [Link to reviewers' comments](./Reviews)
+
+## Notes
+* For any specific research discussion or potential future collaboration, please feel free to contact me. <br />
+* This work is a personal research project and in progress outside of company work.
