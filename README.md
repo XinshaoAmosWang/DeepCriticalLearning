@@ -124,7 +124,10 @@ The results are well sinked and organised, e.g.,
 
 
 ## Supplementary material
-#### [Link to Slide, Poster](./Poster_Slide)
+#### Talks
+  * [12th Aug 2022, Southern University of Science and Technology](./Poster_Slide/Talks/2022-08-12-XW-SUSTECH.pdf)
+  * [17th May 2022, Loughborough University](./Poster_Slide/Talks/2022-05-17-XW-Loughborough.pdf)
+#### [Link to CVPR 2021 Slide, Poster](./Poster_Slide/CVPR-2021)
 #### [Link to reviewers' comments](./Reviews)
 
 ## Notes
