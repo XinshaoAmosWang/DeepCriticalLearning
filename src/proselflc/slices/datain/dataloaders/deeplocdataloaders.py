@@ -122,7 +122,7 @@ def DeepLocTrainLoaderTestset(
         g.manual_seed(params["seed"])
 
         def seed_worker(worker_id):
-            worker_seed = torch.initial_seed() % 2 ** 32
+            worker_seed = torch.initial_seed() % 2**32
             numpy.random.seed(worker_seed)
             random.seed(worker_seed)
 
