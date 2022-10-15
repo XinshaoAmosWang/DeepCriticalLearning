@@ -80,6 +80,7 @@ Here are related papers on the fitting and generalization of deep learning:
 #### Run experiments
 * cd `this repo`
 * pipenv shell
+* pre-commit install
 * run experimenets:
   * CIFAR-100: `CUDA_VISIBLE_DEVICES=0 CUBLAS_WORKSPACE_CONFIG=:4096:8
   TOKENIZERS_PARALLELISM=false
