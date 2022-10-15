@@ -1,5 +1,4 @@
 
-## Deep Critical Learning (i.e., Deep Robustness) In The Era of Big Data
 
 Here are related papers on the fitting and generalization of deep learning:
 * [ProSelfLC: Progressive Self Label Correction Towards A Low-Temperature Entropy State](https://arxiv.org/abs/2207.00118)
