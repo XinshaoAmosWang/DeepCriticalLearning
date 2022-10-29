@@ -57,6 +57,9 @@ Here are related papers on the fitting and generalization of deep learning:
 * Easy to run experiments and sink results
 * Easy to put sinked results into your technical reports and academic papers.
 
+## Demos
+* [Training the shufflenetv2 on cifar-100 with a symmetric noise rate of 40%](./demos_jupyter_notebooks/convnets_cifar100/trainer_cifar100_covnets_proselflc.ipynb)
+
 ## Install
 
 <details><summary>See Install Guidelines</summary>
@@ -131,6 +134,8 @@ The results are well sinked and organised, e.g.,
 #### [Link to CVPR 2021 Slide, Poster](./Poster_Slide/CVPR-2021)
 #### [Link to reviewers' comments](./Reviews)
 
-## Notes
+## Notes and disclaimer
 * For any specific research discussion or potential future collaboration, please feel free to contact me. <br />
-* This work is a personal research project and in progress outside of company work.
+* This work is a personal research project and in progress using personal time.
+
+## [LICENSE](LICENSE)
