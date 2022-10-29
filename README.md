@@ -62,6 +62,9 @@ Here are related papers on the fitting and generalization of deep learning:
 
 * [`Proselflc`: Training the `resnet18` on cifar-100 with a symmetric noise rate of 40%](./demos_jupyter_notebooks/convnets_cifar100/trainer_cifar100_resnet18_proselflc.ipynb)
 
+* [`Label smoothing`: Training the `shufflenetv2` on cifar-100 with a symmetric noise rate of 40%](./demos_jupyter_notebooks/convnets_cifar100/trainer_cifar100_shufflenetv2_labelsmoothing.ipynb)
+
+
 ## Install
 
 <details><summary>See Install Guidelines</summary>
