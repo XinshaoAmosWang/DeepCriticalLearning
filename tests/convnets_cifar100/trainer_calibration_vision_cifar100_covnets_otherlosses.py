@@ -67,9 +67,6 @@ class TestTrainer(unittest.TestCase):
                 self.params["eval_interval"],
             ),
             #
-            self.params["loss_mode"],
-            self.params["trust_mode"],
-            #
             (
                 self.params["loss_name"],
                 self.params["logit_soften_T"],
@@ -105,14 +102,6 @@ class TestTrainer(unittest.TestCase):
             #
             # fix epoch
             [(100, 500)],
-            [
-                "cross entropy",
-            ],
-            [
-                "global*(1-H(p)/H(u))",
-                "global only",
-                "global*max_p",
-            ],
             #
             [
                 ("crossentropy", None),
