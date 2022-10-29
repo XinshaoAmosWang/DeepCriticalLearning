@@ -58,7 +58,9 @@ Here are related papers on the fitting and generalization of deep learning:
 * Easy to put sinked results into your technical reports and academic papers.
 
 ## Demos
-* [Training the shufflenetv2 on cifar-100 with a symmetric noise rate of 40%](./demos_jupyter_notebooks/convnets_cifar100/trainer_cifar100_covnets_proselflc.ipynb)
+* [`Proselflc`: Training the `shufflenetv2` on cifar-100 with a symmetric noise rate of 40%](./demos_jupyter_notebooks/convnets_cifar100/trainer_cifar100_shufflenetv2_proselflc.ipynb)
+
+* [`Proselflc`: Training the `resnet18` on cifar-100 with a symmetric noise rate of 40%](./demos_jupyter_notebooks/convnets_cifar100/trainer_cifar100_resnet18_proselflc.ipynb)
 
 ## Install
 
