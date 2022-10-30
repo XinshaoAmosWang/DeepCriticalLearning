@@ -38,7 +38,7 @@ class TestTrainer(unittest.TestCase):
             {
                 "data_name": "deeploc_prottrans",
                 "num_classes": 2,
-                "task_name": "MS",
+                "task_name": "MS-with-unknown",
                 #
                 "device": "gpu",
                 "num_workers": 1,
@@ -50,7 +50,7 @@ class TestTrainer(unittest.TestCase):
                 #
                 "counter": "iteration",
                 #
-                "batch_size": 16,
+                "batch_size": 32,
                 "classes_per_batch": 2,  # at most 2
                 #
                 "max_seq_length": 434,  # smaller -> more noise
@@ -77,7 +77,7 @@ class TestTrainer(unittest.TestCase):
 
     def test_trainer(self):
         total = 96
-        single_split = total // 8
+        single_split = total // 1
         my_exp_list = list(range(1, total + 1))
         random.Random(self.params["seed"]).shuffle(my_exp_list)
         #
@@ -86,14 +86,9 @@ class TestTrainer(unittest.TestCase):
 
         for (
             (
-                self.params["num_classes"],
-                self.params["task_name"],
                 self.params["lr"],
                 (self.params["milestones"], self.params["gamma"]),
             ),
-            #
-            #
-            (self.params["batch_size"], self.params["classes_per_batch"]),
             #
             self.params["momentum"],
             self.params["weight_decay"],
@@ -118,12 +113,8 @@ class TestTrainer(unittest.TestCase):
             ),
         ) in product(
             [
-                (2, "MS-with-unknown", 0.01, ([5000], 0.1)),
+                (0.01, ([5000], 0.1)),
             ],
-            #
-            #
-            # batch size, and classes per batch
-            [(32, 2)],  # fix this
             #
             [0.9],  # fix this
             # weight decay is very sensitive
