@@ -57,12 +57,18 @@ Here are related papers on the fitting and generalization of deep learning:
 * Easy to run experiments and sink results
 * Easy to put sinked results into your technical reports and academic papers.
 
-## Demos
-* [`Proselflc`: Training the `shufflenetv2` on cifar-100 with a symmetric noise rate of 40%](./demos_jupyter_notebooks/convnets_cifar100/trainer_cifar100_shufflenetv2_proselflc.ipynb)
+## Demos with extra configurations to get deterministic results, so that we can make fair comparisons
+* [`Proselflc`: Training the `shufflenetv2` on `cifar-100 with a symmetric noise rate of 40%`
+](./demos_jupyter_notebooks/convnets_cifar100/trainer_cifar100_shufflenetv2_proselflc.ipynb)
 
-* [`Proselflc`: Training the `resnet18` on cifar-100 with a symmetric noise rate of 40%](./demos_jupyter_notebooks/convnets_cifar100/trainer_cifar100_resnet18_proselflc.ipynb)
+* [`Proselflc`: Training the `resnet18` on `cifar-100 with a symmetric noise rate of 40%`
+](./demos_jupyter_notebooks/convnets_cifar100/trainer_cifar100_resnet18_proselflc.ipynb)
 
-* [`Label smoothing`: Training the `shufflenetv2` on cifar-100 with a symmetric noise rate of 40%](./demos_jupyter_notebooks/convnets_cifar100/trainer_cifar100_shufflenetv2_labelsmoothing.ipynb)
+* [`Label smoothing`: Training the `shufflenetv2` on `cifar-100 with a symmetric noise rate of 40%`
+](./demos_jupyter_notebooks/convnets_cifar100/trainer_cifar100_shufflenetv2_labelsmoothing.ipynb)
+
+* [`Proselflc`: Training the `bert transformers` on `deeploc dataset with unknown labels`
+](./demos_jupyter_notebooks/bert_deeploc/trainer_2MSwithunknown_bert_proselflc.ipynb)
 
 
 ## Install
